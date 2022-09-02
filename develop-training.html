@@ -9,6 +9,7 @@
       * {
         box-sizing: border-box;
         margin: 0;
+        transition: 0.5s;
       }
 
       #root {
@@ -171,6 +172,24 @@
       #bottom-button:hover {
         opacity: 1;
       }
+
+      #option {
+        position: absolute;
+        left: 20px;
+        top: 15px;
+        background-color: #555;
+        color: white;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+      }
+
+      #option > p:nth-child(2) {
+        display: none;
+      }
     </style>
   </head>
   <body>
@@ -184,6 +203,10 @@
         <a href="#" class="menu">bag</a>
       </div>
       <div id="main">
+        <div id="option">
+          <p>Dark</p>
+          <p>Light</p>
+        </div>
         <div id="blind-page-left">
           <div id="top-button"></div>
           <div id="mid-button"></div>
@@ -281,7 +304,7 @@
               </div>
             </div>
           </div>
-          <!-- ------------------------------------------------------------ -->
+          <!---------------------------------------------------------------->
         </div>
         <div id="blind-page-right">
           <div id="first-button"></div>
