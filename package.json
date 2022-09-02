@@ -1,0 +1,20 @@
+{
+  "name": "develop-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "developTraining.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geunsoo96/Develop-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geunsoo96/Develop-training/issues"
+  },
+  "homepage": "https://github.com/geunsoo96/Develop-training#readme",
+  "type": "module"
+}
